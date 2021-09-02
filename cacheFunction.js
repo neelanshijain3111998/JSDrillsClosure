@@ -5,12 +5,12 @@
 // then it should return the cached result and not invoke `cb` again.
 // `cb` should only ever be invoked once for a given set of arguments.
 function cacheFunction(cb) {
-  var cache = [];
+  let cache = [];
   return function (n) {
     if (cache[n] != null) {
       return cache[n];
     } else {
-      var result = cb(n);
+      let result = cb(n);
       cache[n] = result;
 
       return cache[n];
