@@ -1,6 +1,5 @@
 # Js Drill CLosures
 
-
 Here are the steps to download and run the program in visual studio code.
 
 > - Create a `new folder` on your computer where you want to download this. Then open `git bash Here` and run this command
@@ -13,7 +12,6 @@ Here are the steps to download and run the program in visual studio code.
 How to run the files which are inside the test folder.
 
 > - Open Terminal
-> - For **testCacheFunction**- $node test/testCacheFunction.js 
+> - For **testCacheFunction**- $node test/testCacheFunction.js
 > - For **testCounterFactory**- $node test/testCounterFactory.js
-> - For **testLimitFunctionCallCount.js**- $node test/testLimitFunctionCallCount.js 
-
+> - For **testLimitFunctionCallCount.js**- $node test/testLimitFunctionCallCount.js

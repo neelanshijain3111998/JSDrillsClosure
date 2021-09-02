@@ -5,5 +5,5 @@
 const id1 = require("../counterFactory.js");
 
 var myCounter = id1.PublicCounter(); // myCounter now refers to the object returned by counter
-console.log(`value after increment: ${myCounter.Increment(2)}`); // call the appropriate "property" function using dot notation
+console.log(`value after increment: ${myCounter.Increment(2)}`); //call the appropriate "property" function using dot notation
 console.log(`value after decrement: ${myCounter.Decrement(2)}`);
