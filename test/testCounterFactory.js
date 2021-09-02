@@ -1,7 +1,7 @@
 // Return an object that has two methods called `increment` and `decrement`.
 // `increment` should increment a counter variable in closure scope and return it.
 // `decrement` should decrement the counter variable and return it.
-
+//Program: increment the counter by 2 and decrement by 2.
 const id1 = require("../counterFactory.js");
 
 var myCounter = id1.PublicCounter(); // myCounter now refers to the object returned by counter

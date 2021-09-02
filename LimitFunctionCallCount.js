@@ -8,7 +8,7 @@ function limitFunctionCallCount(cb, n) {
       n -= 1;
       return cb(); //return "hello word"
     } else {
-      return null;
+      return null; //if we call more than n times it will return null
     }
   };
 }
