@@ -6,6 +6,7 @@
 // `cb` should only ever be invoked once for a given set of arguments.
 function cacheFunction(cb) {
   let cache = [];
+
   return function (n) {
     if (cache[n] != null) {
       return cache[n];
