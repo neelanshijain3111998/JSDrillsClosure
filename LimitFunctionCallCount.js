@@ -3,10 +3,10 @@
 // Returning null is acceptable if cb can't be returned
 
 function limitFunctionCallCount(cb, n) {
-  return function () {
+  return function (aa, bb) {
     if (n > 0) {
       n -= 1;
-      return cb(); //return "hello word"
+      return cb(aa, bb); //return "hello word"
     } else {
       return null; //if we call more than n times it will return null
     }
